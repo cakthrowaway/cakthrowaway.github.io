@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.content {
+    text-align: center;
+}
+
+.photo {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #ff69b4;
+    margin-top: 20px;
+}
+
+.heart {
+    position: absolute;
+    color: red;
+    font-size: 2rem;
+    pointer-events: none;
+}
