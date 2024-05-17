@@ -1,4 +1,11 @@
+let clickCount = 0;
+
 document.addEventListener('click', function(event) {
+    // Increment the click count
+    clickCount++;
+    document.getElementById('clickCount').textContent = clickCount;
+
+    // Create and display a heart at a random position
     const heart = document.createElement('div');
     heart.classList.add('heart');
     heart.textContent = '❤️';
